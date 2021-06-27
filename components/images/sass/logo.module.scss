@@ -1,0 +1,15 @@
+
+@import '../../../sass/theme';
+
+.logo {
+  background-size: 80%;
+  background-position: center;
+  background-color: $main-background-color;
+  background-repeat: no-repeat;
+  background-image: url('/assets/images/logo.png');
+  border-radius: 100%;
+
+  span {
+    display: none;
+  }
+}

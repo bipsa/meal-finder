@@ -1,0 +1,16 @@
+@import '../../../sass/theme';
+
+.search-button {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  color: $button-label-color;
+
+  :global(svg){
+    font-size: 1em;
+  }
+
+  &:visited {
+    color: $button-label-color;
+  }
+}

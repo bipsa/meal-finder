@@ -1,0 +1,53 @@
+@import '../../../sass/theme';
+
+.header {
+  position: fixed;
+  height: 3em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $navigation-bar-background;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  :global(.page-wrapper) {
+    height: 100%;
+    flex-direction: row;
+  }
+
+  input {
+    width: 100%;
+    font-size: 1em;
+    background-color: transparent;
+    color: $navigation-bar-input-color;
+    border: none;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  a {
+    color: $navigation-bar-input-color;
+  }
+
+  .header-left,
+  .header-title,
+  .header-right {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-left,
+  .header-right {
+    flex: 0 0 10%;
+  }
+
+  .header-title {
+    flex: 1 1 auto;
+  }
+}

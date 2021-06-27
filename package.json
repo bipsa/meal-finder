@@ -1,0 +1,41 @@
+{
+  "name": "recipe-finder",
+  "version": "1.0.0",
+  "description": "A small site to help users to find a recipe",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bipsa/recipe-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bipsa/recipe-finder/issues"
+  },
+  "homepage": "https://github.com/bipsa/recipe-finder#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "sass": "^1.35.1",
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@reduxjs/toolkit": "^1.6.0",
+    "axios": "^0.21.1",
+    "lodash": "^4.17.21",
+    "next": "^11.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4"
+  }
+}

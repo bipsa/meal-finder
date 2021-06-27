@@ -1,0 +1,19 @@
+.ingredients-wrapper {
+  display: flex;
+  flex-direction: column;
+  
+  h3 {
+    margin: 1em 0 0 0;
+  }
+
+  ul {
+    margin: 1em 0;
+  }
+  .instructions-wrapper {
+    margin: 1em 0;
+
+    p {
+      margin: 0.5em 0;
+    }
+  }
+}

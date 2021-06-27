@@ -1,0 +1,29 @@
+@import '../../../sass/theme';
+
+.card {
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+      color: $primary-font-color;
+      text-align: center;
+      width: 80%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .card-body {
+      margin: 1em 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .image-frame {
+    background-size: cover;
+    background-position: center;
+    height: 15em;
+    width: 100%;
+  }
+}
