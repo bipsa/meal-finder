@@ -5,6 +5,10 @@ body {
   font-size: 100%;
 }
 
+body.dark {
+  background-color: $main-background-color-dark;
+}
+
 html, body, 
 #__next {
   width: 100%;
@@ -66,6 +70,16 @@ ul {
     a {
       color: $primary-font-color;
       height: 100%;
+    }
+  }
+}
+
+body.dark {
+  .search-results {
+    li {
+      a{
+        color: $primary-font-color-dark;
+      }
     }
   }
 }

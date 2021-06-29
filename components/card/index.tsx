@@ -29,7 +29,7 @@ const Card:FunctionComponent<CardProps> = ({ recipe }) => {
             if(!error) {
               try {
                 imageFrame.current.style.backgroundImage = `url(${imageLoaded.src})`;
-                element.target.classList.add('loaded');
+                imageFrame.current.classList.add('loaded');
               } catch (error) {
               }
             }
@@ -52,6 +52,7 @@ const Card:FunctionComponent<CardProps> = ({ recipe }) => {
         <div ref={currentCard} className={styles['card-wrapper']}>
           <div className={styles['card-body']}>
             <h3>{recipe.strMeal}</h3>
+            <p>{recipe.strInstructions}</p>
           </div>
           <div ref={imageFrame} className={styles['image-frame']}></div>
         </div>

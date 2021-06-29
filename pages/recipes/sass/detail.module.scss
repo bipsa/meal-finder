@@ -1,3 +1,5 @@
+@import '../../../sass/theme';
+
 .ingredients-wrapper {
   display: flex;
   flex-direction: column;
@@ -14,6 +16,19 @@
 
     p {
       margin: 0.5em 0;
+    }
+  }
+}
+
+:global(body.dark) {
+  .ingredients-wrapper {
+    ul, h3 {
+      color: $primary-font-color-dark;
+    }
+    .instructions-wrapper {
+      p{
+        color: $primary-font-color-dark;
+      }
     }
   }
 }
